@@ -1,0 +1,82 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+/* Global section styles */
+.section {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Global button styles */
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ff7b00;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(255, 123, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #e35b00;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 123, 0, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .container {
+    padding: 0 15px;
+  }
+}
