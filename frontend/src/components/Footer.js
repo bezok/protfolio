@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="footer-main">
           <div className="footer-col">
-            <div className="footer-logo">Your Name</div>
+            <div className="footer-logo">Vaishnav Benny</div>
             <p className="footer-description">
               Web developer passionate about crafting clean, user-friendly interfaces and building meaningful digital experiences.
             </p>
